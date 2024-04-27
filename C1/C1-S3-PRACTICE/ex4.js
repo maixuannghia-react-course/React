@@ -4,7 +4,7 @@ let numbers = [1, 2, 3, 4, 5];
 // You need to use the array.filter() function
 function filterEvenNumbers(arr) {
   // TODO - Your code here (1 line)
-  return arr.filter((n) => { return n % 2 === 0});
+  return arr.filter(n => n % 2 === 0);
 }
 
 // Function to map array elements to their squared values
